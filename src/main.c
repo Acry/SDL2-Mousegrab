@@ -194,13 +194,13 @@ void assets_in(void)
 	logo_dst.y=(wh/2)-(logo_dst.h/2);
 	//END 	LOGO
 	
-	//BEGIN LOGO
+	//BEGIN BUTTON
 	temp_surface = IMG_Load("./assets/gfx/button.png");
 	button = SDL_CreateTextureFromSurface(Renderer, temp_surface);
 	SDL_QueryTexture(button, NULL, NULL, &button_dst.w, &button_dst.h);
 	button_dst.x=(ww/2)-(button_dst.w/2);
 	button_dst.y=(wh/2)-(button_dst.h/2);
-	//END 	LOGO
+	//END 	BUTTON
 	
 	
 
